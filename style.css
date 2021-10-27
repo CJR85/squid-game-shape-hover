@@ -37,6 +37,8 @@
 .container .card {
   position: relative;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-grow: 1;
   transition: 0.5s ease-in-out;
   overflow: hidden;
@@ -45,4 +47,15 @@
 .container .card:hover {
   flex-grow: 3;
   background: #1a1a1a;
+}
+
+.container .card ion-icon {
+  font-size: 15vw;
+  background: #1a1a1a;
+  transition: 0.5s ease-in-out;
+}
+
+.container .card:hover ion-icon {
+  color: #fff;
+  font-size: 25vw;
 }
