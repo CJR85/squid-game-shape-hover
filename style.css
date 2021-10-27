@@ -51,11 +51,14 @@
 
 .container .card ion-icon {
   font-size: 15vw;
-  background: #1a1a1a;
+  color: #1a1a1a;
   transition: 0.5s ease-in-out;
 }
 
 .container .card:hover ion-icon {
   color: #fff;
   font-size: 25vw;
+  filter: drop-shadow(0 0 10px #ea4884), drop-shadow(0 0 30px #ea4884),
+    drop-shadow(0 0 60px #ea4884), drop-shadow(0 0 100px #ea4884),
+    drop-shadow(0 0 150px #ea4884);
 }
